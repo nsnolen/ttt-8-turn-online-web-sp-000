@@ -21,6 +21,8 @@ def valid_move?(index)
   index = user_input.to_i - 1
   if index.between(0, 8)
     return true
+  elsif index == " " || index == "" | index == nil
+    return false
 end
 end
 
