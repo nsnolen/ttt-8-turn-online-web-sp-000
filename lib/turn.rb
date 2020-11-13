@@ -51,7 +51,6 @@ def turn(board)
   else
     turn(board)
 end
-  move(board, user_input, value = "X")
 
 end
 
