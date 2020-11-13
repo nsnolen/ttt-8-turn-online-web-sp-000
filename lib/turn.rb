@@ -48,7 +48,6 @@ def turn(board)
   input_to_index(user_input)
   until valid_move?(board, user_input) == true do
     puts "Please enter 1-9:"
-    turn(board)
   end
   move(board, user_input, value = "X")
 end
