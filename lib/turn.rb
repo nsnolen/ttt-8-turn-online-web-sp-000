@@ -50,6 +50,7 @@ def turn(board)
     puts "Please enter 1-9:"
     turn(board) += 1
   end
+  move(board, user_input, value = "X")
 end
 
 #inValidmove?
