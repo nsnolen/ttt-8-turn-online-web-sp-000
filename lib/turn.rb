@@ -1,11 +1,10 @@
 #display_board
-def display_board
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
-end
+
 #Ask the user for their move by position 1-9
 
 # Receive the user input
