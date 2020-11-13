@@ -6,4 +6,4 @@ puts display_board
 #Validmove?
   #make move and display_board
 #inValidmove?
-  #ask for a new move until a valid move is received. 
+  #ask for a new move until a valid move is received.
