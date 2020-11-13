@@ -46,11 +46,12 @@ def turn(board)
   puts "Please enter 1-9:"
   user_input = gets.strip.to_i - 1
   input_to_index(user_input)
-  until valid_move?(board, user_input) == true do
+  if valid_move?(board, user_input) == false 
     puts "Please enter 1-9:"
     turn(board)
+  else
+    move(board, user_input, value = "X")
   end
-  move(board, user_input, value = "X")
 end
 
 #inValidmove?
