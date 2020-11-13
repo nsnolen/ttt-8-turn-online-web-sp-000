@@ -40,7 +40,7 @@ end
 end
 #make move and display_board
 def move(board, user_input, value = "X")
-  board[user-input] = value
+  board[user_input] = value
 end
 
 #inValidmove?
