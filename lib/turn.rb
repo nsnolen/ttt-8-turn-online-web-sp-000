@@ -41,18 +41,14 @@ def move(board, user_input, value = "X")
   board[user_input] = value
 end
 
-def turn(board) do
+def turn(board) 
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   puts "Please enter 1-9:"
   user_input = gets.strip.to_i - 1
   input_to_index(user_input)
-  if valid_move?(board, user_input)
-    break
-  end
+  invalid_move?(board, user_input)
+  turn(board)
 end
-  end
-
-
-end
+  
 #inValidmove?
   #ask for a new move until a valid move is received.
