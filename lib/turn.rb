@@ -51,7 +51,6 @@ def turn(board)
     turn(board)
   end
 end
-end
 
 #inValidmove?
   #ask for a new move until a valid move is received.
