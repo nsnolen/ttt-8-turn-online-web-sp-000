@@ -27,7 +27,7 @@ end
 
 #define position_taken?
 def position_taken?(board, index)
-  index = user_input
+  
 if board[index] == " " || board[index] == "" || board[index] == nil
   return false
 elsif board[index] == "X" || board[index] == "O"
