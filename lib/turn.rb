@@ -22,6 +22,7 @@ def valid_move?(index)
   if index.between(0, 8)
     return true
 end
+end
 
   #make move and display_board
 #inValidmove?
