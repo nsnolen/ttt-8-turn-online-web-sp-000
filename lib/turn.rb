@@ -17,11 +17,11 @@ def input_to_index(user_input)
 end
 
 #Validmove?
-def valid_move?(index)
+def valid_move?(board, index)
   index = user_input.to_i - 1
   if index.between(0, 8)
     return true
-  elsif index == " " || index == "" | index == nil
+  elsif board[index] == " " || board[index] == "" | board[index] == nil
     return false
 end
 end
