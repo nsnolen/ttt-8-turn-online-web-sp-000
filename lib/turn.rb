@@ -18,7 +18,6 @@ end
 
 #Validmove?
 def valid_move?(board, index)
-  index = user_input.to_i - 1
   if index.between(0, 8)
     return true
   elsif board[index] == " " || board[index] == "" | board[index] == nil
