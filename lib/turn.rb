@@ -19,6 +19,8 @@ end
 #Validmove?
 def valid_move?(index)
   index = user_input.to_i - 1
+  if index == .between(0, 8)
+    return true
 end
 
   #make move and display_board
