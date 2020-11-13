@@ -43,8 +43,10 @@ def move(board, user_input, value = "X")
   board[user_input] = value
 end
 
-def turn
+def turn(board)
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   puts "Please enter 1-9:"
+  gets user.input 
 end
 #inValidmove?
   #ask for a new move until a valid move is received.
