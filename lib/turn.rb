@@ -46,7 +46,7 @@ end
 def turn(board)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   puts "Please enter 1-9:"
-  gets user.input 
+  gets user.input
 end
 #inValidmove?
   #ask for a new move until a valid move is received.
