@@ -49,6 +49,7 @@ def turn(board)
   until valid_move?(board, user_input) == true do
     puts "Please enter 1-9:"
     turn(board)
+    break
   end
 end
 
