@@ -49,8 +49,6 @@ def turn(board)
   until valid_move?(board, user_input) == true
   return turn(board)
 end
-  valid_move?(board, user_input)
-  display_board(board)
   move(board, user_input, value = "X")
 
 end
