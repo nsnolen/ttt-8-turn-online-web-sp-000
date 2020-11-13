@@ -17,10 +17,10 @@ def input_to_index(user_input)
 end
 
 #Validmove?
-def valid_move?(board, index)
-  if index.between?(0,8) && !position_taken?(board, index)
+def valid_move?(board, user_input)
+  if user_input.between?(0,8) && !position_taken?(board, index)
     return true
-  elsif index.between?(0,8) && position_taken?(board, index)
+  elsif user_input.between?(0,8) && position_taken?(board, index)
     return false
 end
 end
