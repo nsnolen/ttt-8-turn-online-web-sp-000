@@ -18,7 +18,6 @@ end
 
 #Validmove?
 def valid_move?(board, index)
-  index = user_input
   if index.between?(0,8) && !position_taken?(board, index)
     return true
   elsif index.between?(0,8) && position_taken?(board, index)
