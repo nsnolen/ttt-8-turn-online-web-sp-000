@@ -17,6 +17,9 @@ def input_to_index(user_input)
 end
 
 #Validmove?
+def valid_move?(index)
+  index = user_input.to_i - 1
+  
   #make move and display_board
 #inValidmove?
   #ask for a new move until a valid move is received.
