@@ -49,8 +49,7 @@ def turn(board) do
   if valid_move?(board, user_input) == true
     break
   end
-
-
+end
   end
 
 
