@@ -31,7 +31,6 @@ end
 def position_taken?(board, index)
 if board[index] == " " || board[index] == "" || board[index] == nil
   return false
-
 elsif board[index] == "X" || board[index] == "O"
   return true
 else
@@ -46,6 +45,7 @@ end
 def turn(board)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   puts "Please enter 1-9:"
+  gets input_to_index(user_input)
 
 end
 #inValidmove?
