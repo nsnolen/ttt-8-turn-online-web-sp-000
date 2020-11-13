@@ -11,13 +11,12 @@ end
 board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
 display_board(board)
 
-#Ask the user for their move by position 1-9
+# Receive the user input and Convert position to an index
+
 def input_to_index(user_input)
   user_input.to_i - 1
 end
-# Receive the user input
 
-#Convert position to an index
 #Validmove?
   #make move and display_board
 #inValidmove?
