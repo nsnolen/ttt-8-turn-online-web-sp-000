@@ -18,7 +18,7 @@ end
 
 #Validmove?
 def valid_move?(board, index)
-  
+
 end
 
   #make move and display_board
