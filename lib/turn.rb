@@ -1,5 +1,5 @@
 #Ask the user for their move by position 1-9
-display_board
+puts display_board
 # Receive the user input
 
 #Convert position to an index
