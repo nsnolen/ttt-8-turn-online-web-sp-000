@@ -40,6 +40,7 @@ end
 def move(board, user_input, value = "X")
   board[user_input] = value
   display_board(board)
+  input_to_index(user_input)
 end
 
 def turn(board)
