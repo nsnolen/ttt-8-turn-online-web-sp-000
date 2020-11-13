@@ -51,7 +51,7 @@ def turn(board)
 end
   display_board(board)
   move(board, user_input, value = "X")
-  
+
 end
 
 #inValidmove?
