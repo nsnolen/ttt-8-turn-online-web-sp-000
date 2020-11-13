@@ -1,5 +1,13 @@
+#display_board
+def display_board
+  puts "   "|"   "|"   "
+  puts -----------
+  puts "   "|"   "|"   "
+  puts -----------
+  puts "   "|"   "|"   "
+end
 #Ask the user for their move by position 1-9
-puts display_board
+
 # Receive the user input
 
 #Convert position to an index
