@@ -8,7 +8,7 @@ puts "-----------"
 puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 #prints arbitrary board
-
+puts display_board(board)
 #Ask the user for their move by position 1-9
 
 # Receive the user input
