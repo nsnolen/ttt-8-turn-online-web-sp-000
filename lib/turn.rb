@@ -45,7 +45,7 @@ end
 def turn(board)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   puts "Please enter 1-9:"
-  user_input.gets.chip
+  user_input = gets.strip
 
 end
 #inValidmove?
