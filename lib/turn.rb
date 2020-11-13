@@ -48,8 +48,6 @@ def turn(board)
   input_to_index(user_input)
   until valid_move?(board, user_input) == true
   return turn(board)
-else
-  true
 end
   move(board, user_input, value = "X")
   display_board(board)
