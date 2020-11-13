@@ -18,19 +18,19 @@ end
 
 #Validmove?
 def valid_move?(board, user_input)
-  if user_input.between?(0,8) && !position_taken?(board, index)
+  if user_input.between?(0,8) && !position_taken?(board, user_input)
     return true
-  elsif user_input.between?(0,8) && position_taken?(board, index)
+  elsif user_input.between?(0,8) && position_taken?(board, user_input)
     return false
 end
 end
 
 #define position_taken?
-def position_taken?(board, index)
+def position_taken?(board, user_input)
 
-if board[index] == " " || board[index] == "" || board[index] == nil
+if board[user_input] == " " || board[user_input] == "" || board[user_input] == nil
   return false
-elsif board[index] == "X" || board[index] == "O"
+elsif board[user_input] == "X" || board[user_input] == "O"
   return true
 else
   return false
