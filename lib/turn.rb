@@ -48,8 +48,9 @@ def turn(board)
   input_to_index(user_input)
   until valid_move?(board, user_input) == true
   return turn(board)
-    move(board, user_input, value = "X")
 end
+  move(board, user_input, value = "X")
+
 end
 
 #inValidmove?
