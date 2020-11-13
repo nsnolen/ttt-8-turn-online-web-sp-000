@@ -50,6 +50,7 @@ def turn(board)
   return turn(board)
 end
   move(board, user_input, value = "X")
+  display_board(board)
 
 end
 
