@@ -18,7 +18,10 @@ end
 
 #Validmove?
 def valid_move?(board, index)
-
+  index = user_input.to_i - 1
+ if board[index] == " "
+   return false
+end
 end
 
   #make move and display_board
