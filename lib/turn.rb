@@ -42,6 +42,6 @@ end
 def move(board, user_input, value = "X")
   board[user-input] = value
 end
-  
+
 #inValidmove?
   #ask for a new move until a valid move is received.
