@@ -17,9 +17,6 @@ def input_to_index(user_input)
 end
 
 #Validmove?
-
-
-
 def valid_move?(board, index)
 
 
@@ -30,6 +27,7 @@ def valid_move?(board, index)
 end
 end
 
+#define position_taken?
 def position_taken?(board, index)
 if board[index] == " " || board[index] == "" || board[index] == nil
   return false
@@ -40,6 +38,10 @@ else
   return false
 end
 end
-  #make move and display_board
+#make move and display_board
+def move(board, user_input, value = "X")
+  board[user-input] = value
+end
+  
 #inValidmove?
   #ask for a new move until a valid move is received.
