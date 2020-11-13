@@ -39,6 +39,7 @@ end
 #make move and display_board
 def move(board, user_input, value = "X")
   board[user_input] = value
+  display_board(board)
 end
 
 def turn(board)
