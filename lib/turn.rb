@@ -47,7 +47,7 @@ def turn(board)
   user_input = gets.strip.to_i - 1
   input_to_index(user_input)
   invalid_move?(board, user_input)
-  turn(board)
+
 end
 
 #inValidmove?
