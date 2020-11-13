@@ -1,11 +1,11 @@
 #display_board
 def display_board(board)
 board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
+puts " #{board[0]} | #{board[1]} | #{board[2]} "
+puts "-----------"
+puts " #{board[3]} | #{board[4]} | #{board[5]} "
+puts "-----------"
+puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 #Ask the user for their move by position 1-9
 
